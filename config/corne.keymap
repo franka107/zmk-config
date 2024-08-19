@@ -12,14 +12,14 @@
         mutemic: mutemic {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&sk LEFT_SHIFT &sk LEFT_GUI &kp F12>;
+            bindings = <&mt LEFT_SHIFT LG(F12)>;
             label = "MUTEMIC";
         };
 
         screenshot: screenshot {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&sk LEFT_SHIFT &sk LEFT_GUI &kp S>;
+            bindings = <&mt LEFT_SHIFT LG(S)>;
             label = "SCREENSHOT";
         };
     };
