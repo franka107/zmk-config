@@ -81,9 +81,9 @@
 
         raise_layer {
             bindings = <
-&kp ESCAPE      &trans    &trans       &kp C_NEXT        &kp C_BRI_UP  &kp C_VOLUME_UP      &trans            &trans         &trans     &kp MINUS          &kp EQUAL             &kp BACKSPACE
-&kp TAB         &todoadd  &screenshot  &trans            &trans        &kp K_MUTE           &kp LEFT_BRACKET  &kp SEMICOLON  &kp COMMA  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &kp ENTER
-&kp LEFT_SHIFT  &trans    &trans       &kp C_PREV        &kp C_BRI_DN  &kp C_VOLUME_DOWN    &trans            &mutemic       &trans     &trans             &trans                &kp LEFT_SHIFT
+&kp ESCAPE      &trans    &trans       &kp C_NEXT        &kp C_BRI_UP  &kp C_VOLUME_UP      &trans            &trans         &trans   &kp MINUS          &kp EQUAL             &kp BACKSPACE
+&kp TAB         &todoadd  &screenshot  &trans            &trans        &kp K_MUTE           &kp LEFT_BRACKET  &kp SEMICOLON  &kp SQT  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &kp ENTER
+&kp LEFT_SHIFT  &trans    &trans       &kp C_PREV        &kp C_BRI_DN  &kp C_VOLUME_DOWN    &trans            &mutemic       &trans   &trans             &trans                &kp LEFT_SHIFT
                                        &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND     &kp SPACE         &mo 1          &trans
             >;
         };
